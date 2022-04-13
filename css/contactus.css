@@ -1,0 +1,68 @@
+body{
+    margin: 0%;
+}
+
+/* Nav-bar */
+#title{
+    background-color: #1F5F8B;
+    color: white;
+    font-size: large;
+    padding: 0.5%;
+    position: fixed;
+    top: 0%;
+    z-index: 1;
+    width: 100%;
+    margin-bottom: 2%;
+}
+.nav-link{
+    text-decoration: none;
+    color: white;
+}
+.nav-link:hover{
+    text-decoration: none;
+    color: white;
+}
+
+.container{
+    z-index: 0;
+}
+
+/* Administrator */
+.admin{
+    margin-top: 9%;
+}
+.admin h3,p,h5,a{
+    text-align: center;
+    /* text-decoration: none; */
+}
+
+.projcord h3,p,h5,a{
+    text-align: center;
+    /* text-decoration: none; */
+}
+/* Footer */
+#footer{
+    background-color: #1F5F8B;
+    padding: 0.5%;
+    text-align: center;
+}
+.movryt{
+    color: white;
+    padding-right: 2%;
+}
+.cpyrt{
+    padding-top: 1%;
+    color: white;
+}
+
+/* Media query breakpoints */
+@media (max-width:576px){
+    .admin{
+        margin-top: 16%;
+    }
+}
+@media (max-width:768px){
+    .admin{
+        margin-top: 13%;
+    }
+}
